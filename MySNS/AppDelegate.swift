@@ -10,6 +10,13 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var window: UIWindow?
+    
+    var accesstoken: String!
+    var client: String!
+    var uid: String!
+    var webuser: Webuser!
 
 
 
